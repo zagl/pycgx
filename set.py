@@ -217,3 +217,7 @@ class Set(object):
     def sendRadiate(self):
         self.cmd.append("SEND %s abq rad 1. 1." % self._name)
         return self
+
+    def sendFlux(self):
+        self.cmd.append("SEND %s abq dflux 1." % self._name)
+        return self

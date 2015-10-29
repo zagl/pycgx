@@ -232,7 +232,7 @@ class Cgx(object):
             fin_base = self.makeBoxDXDYDZ(
                 [origin[0], origin[1] + y_pos, origin[2]],
                 [dimension[0], fin_width, base_height],
-                [div[0], fin_div, 4]
+                [div[0], fin_div, 2]
             )
             newSet.add(fin_base)
             newSet.minZ.add(fin_base.minZ)
